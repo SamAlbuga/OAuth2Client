@@ -28,28 +28,28 @@
 
 #pragma mark Notifications
 
-NSString * const NXOAuth2AccountStoreDidFailToRequestAccessNotification = @"NXOAuth2AccountStoreDidFailToRequestAccessNotification";
-NSString * const NXOAuth2AccountStoreAccountsDidChangeNotification = @"NXOAuth2AccountStoreAccountsDidChangeNotification";
+NSString * const NXOAuth2AccountStoreDidFailToRequestAccessNotification = @"AW-NXOAuth2AccountStoreDidFailToRequestAccessNotification";
+NSString * const NXOAuth2AccountStoreAccountsDidChangeNotification = @"AW-NXOAuth2AccountStoreAccountsDidChangeNotification";
 
-NSString * const NXOAuth2AccountStoreNewAccountUserInfoKey = @"NXOAuth2AccountStoreNewAccountUserInfoKey";
+NSString * const NXOAuth2AccountStoreNewAccountUserInfoKey = @"AW-NXOAuth2AccountStoreNewAccountUserInfoKey";
 
 #pragma mark Configuration
 
-NSString * const kNXOAuth2AccountStoreConfigurationClientID = @"kNXOAuth2AccountStoreConfigurationClientID";
-NSString * const kNXOAuth2AccountStoreConfigurationSecret = @"kNXOAuth2AccountStoreConfigurationSecret";
-NSString * const kNXOAuth2AccountStoreConfigurationAuthorizeURL = @"kNXOAuth2AccountStoreConfigurationAuthorizeURL";
-NSString * const kNXOAuth2AccountStoreConfigurationTokenURL = @"kNXOAuth2AccountStoreConfigurationTokenURL";
-NSString * const kNXOAuth2AccountStoreConfigurationRedirectURL = @"kNXOAuth2AccountStoreConfigurationRedirectURL";
-NSString * const kNXOAuth2AccountStoreConfigurationScope = @"kNXOAuth2AccountStoreConfigurationScope";
-NSString * const kNXOAuth2AccountStoreConfigurationTokenType = @"kNXOAuth2AccountStoreConfigurationTokenType";
-NSString * const kNXOAuth2AccountStoreConfigurationTokenRequestHTTPMethod = @"kNXOAuth2AccountStoreConfigurationTokenRequestHTTPMethod";
-NSString * const kNXOAuth2AccountStoreConfigurationKeyChainGroup = @"kNXOAuth2AccountStoreConfigurationKeyChainGroup";
-NSString * const kNXOAuth2AccountStoreConfigurationAdditionalAuthenticationParameters = @"kNXOAuth2AccountStoreConfigurationAdditionalAuthenticationParameters";
-NSString * const kNXOAuth2AccountStoreConfigurationCustomHeaderFields = @"kNXOAuth2AccountStoreConfigurationCustomHeaderFields";
+NSString * const kNXOAuth2AccountStoreConfigurationClientID = @"AW-kNXOAuth2AccountStoreConfigurationClientID";
+NSString * const kNXOAuth2AccountStoreConfigurationSecret = @"AW-kNXOAuth2AccountStoreConfigurationSecret";
+NSString * const kNXOAuth2AccountStoreConfigurationAuthorizeURL = @"AW-kNXOAuth2AccountStoreConfigurationAuthorizeURL";
+NSString * const kNXOAuth2AccountStoreConfigurationTokenURL = @"AW-kNXOAuth2AccountStoreConfigurationTokenURL";
+NSString * const kNXOAuth2AccountStoreConfigurationRedirectURL = @"AW-kNXOAuth2AccountStoreConfigurationRedirectURL";
+NSString * const kNXOAuth2AccountStoreConfigurationScope = @"AW-kNXOAuth2AccountStoreConfigurationScope";
+NSString * const kNXOAuth2AccountStoreConfigurationTokenType = @"AW-kNXOAuth2AccountStoreConfigurationTokenType";
+NSString * const kNXOAuth2AccountStoreConfigurationTokenRequestHTTPMethod = @"AW-kNXOAuth2AccountStoreConfigurationTokenRequestHTTPMethod";
+NSString * const kNXOAuth2AccountStoreConfigurationKeyChainGroup = @"AW-kNXOAuth2AccountStoreConfigurationKeyChainGroup";
+NSString * const kNXOAuth2AccountStoreConfigurationAdditionalAuthenticationParameters = @"AW-kNXOAuth2AccountStoreConfigurationAdditionalAuthenticationParameters";
+NSString * const kNXOAuth2AccountStoreConfigurationCustomHeaderFields = @"AW-kNXOAuth2AccountStoreConfigurationCustomHeaderFields";
 
 #pragma mark Account Type
 
-NSString * const kNXOAuth2AccountStoreAccountType = @"kNXOAuth2AccountStoreAccountType";
+NSString * const kNXOAuth2AccountStoreAccountType = @"AW-kNXOAuth2AccountStoreAccountType";
 
 #pragma mark -
 
