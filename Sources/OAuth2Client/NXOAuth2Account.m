@@ -25,10 +25,10 @@
 
 #pragma mark Notifications
 
-NSString * const NXOAuth2AccountDidChangeUserDataNotification = @"NXOAuth2AccountDidChangeUserDataNotification";
-NSString * const NXOAuth2AccountDidChangeAccessTokenNotification = @"NXOAuth2AccountDidChangeAccessTokenNotification";
-NSString * const NXOAuth2AccountDidLoseAccessTokenNotification = @"NXOAuth2AccountDidLoseAccessTokenNotification";
-NSString * const NXOAuth2AccountDidFailToGetAccessTokenNotification = @"NXOAuth2AccountDidFailToGetAccessTokenNotification";
+NSString * const NXOAuth2AccountDidChangeUserDataNotification = @"AW-NXOAuth2AccountDidChangeUserDataNotification";
+NSString * const NXOAuth2AccountDidChangeAccessTokenNotification = @"AW-NXOAuth2AccountDidChangeAccessTokenNotification";
+NSString * const NXOAuth2AccountDidLoseAccessTokenNotification = @"AW-NXOAuth2AccountDidLoseAccessTokenNotification";
+NSString * const NXOAuth2AccountDidFailToGetAccessTokenNotification = @"AW-NXOAuth2AccountDidFailToGetAccessTokenNotification";
 
 #pragma mark -
 
