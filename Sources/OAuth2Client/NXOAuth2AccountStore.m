@@ -591,7 +591,7 @@ NSString * const kNXOAuth2AccountStoreAccountType = @"AW-kNXOAuth2AccountStoreAc
 + (NSString *)keychainServiceName;
 {
     NSString *appName = [[NSBundle mainBundle] bundleIdentifier];
-    return [NSString stringWithFormat:@"%@::NXOAuth2AccountStore", appName];
+    return [NSString stringWithFormat:@"%@::AW-NXOAuth2AccountStore", appName];
 }
 
 #if TARGET_OS_IPHONE
