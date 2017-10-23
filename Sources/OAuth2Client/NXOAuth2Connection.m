@@ -26,8 +26,8 @@
 @end
 
 
-NSString * const NXOAuth2ConnectionDidStartNotification = @"NXOAuth2ConnectionDidStartNotification";
-NSString * const NXOAuth2ConnectionDidEndNotification = @"NXOAuth2ConnectionDidEndNotification";
+NSString * const NXOAuth2ConnectionDidStartNotification = @"AW-NXOAuth2ConnectionDidStartNotification";
+NSString * const NXOAuth2ConnectionDidEndNotification = @"AW-NXOAuth2ConnectionDidEndNotification";
 
 
 @interface NXOAuth2Connection ()
